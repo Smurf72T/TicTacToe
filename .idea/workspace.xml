@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0580b6a7-c768-448a-a698-d5a6c42b912a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TicTacToe_python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TicTacToe.py" afterDir="false" />
-    </list>
+    <list default="true" id="0580b6a7-c768-448a-a698-d5a6c42b912a" name="Changes" comment="Project TicTacToe" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,6 +156,19 @@
       <option name="presentableId" value="Default" />
       <updated>1722399423070</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project TicTacToe">
+      <option name="closed" value="true" />
+      <created>1722413325575</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722413325575</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project TicTacToe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project TicTacToe" />
   </component>
 </project>
