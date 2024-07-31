@@ -1,7 +1,22 @@
 from colorama import Fore, Back, Style
 def draw_board(board):
-    for i in range(3):
-        print(Fore.RED + " | ".join(board[i]) + Style.RESET_ALL)
+    for x in range(len(board)):
+        for y in range(len(board)):
+            if board[x][y] == ' ':
+                if y < len(board) - 1:
+                    print(Fore.RED + board[x][y] + Style.RESET_ALL, '| ', end='')
+                else:
+                    print(Fore.RED + board[x][y] + Style.RESET_ALL, '| ')
+            elif board[x][y] == 'X':
+                if y < len(board) - 1:
+                    print(Fore.YELLOW + 'X' + Style.RESET_ALL, '| ', end='')
+                else:
+                    print(Fore.YELLOW + 'X' + Style.RESET_ALL, '| ')
+            elif board[x][y] == 0:
+                if y < len(board) - 1:
+                    print(Fore.GREEN + '0' + Style.RESET_ALL, '| ', end='')
+                else:
+                    print(Fore.GREEN + '0' + Style.RESET_ALL, '| ')
         print(Fore.CYAN + "---------" + Style.RESET_ALL)
         # print(Fore.RED + 'X' + Style.RESET_ALL)
         # print(Fore.BLUE + 'O' + Style.RESET_ALL)
@@ -48,7 +63,7 @@ def check_win(player, board):
             return True
     return False
 
-def tic_tac_toe():
+def tic_tac_toe(board):
     while True:
         board = [[' ' for i in range(3)] for j in range(3)]
         player = input('За кого играем? Х или 0: ').upper()
@@ -71,4 +86,4 @@ def tic_tac_toe():
         if restart.lower() != 'д':
             break
 
-tic_tac_toe()
+tic_tac_toe(3)
